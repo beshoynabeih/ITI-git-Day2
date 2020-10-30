@@ -1,0 +1,51 @@
+1.
+git init
+git remote add origin ...
+
+2.
+git branch dev
+git checkout dev
+touch f3 f4
+git add .
+git commit -m "adding f3 f4"
+git push origin dev
+
+git checkout -b test
+
+3.
+git checkout main
+git merge dev
+git push origin main
+
+4.
+remove local branch
+git branch -D dev
+git branch -d dev
+
+from remote
+git push origin :dev
+
+5.
+done
+
+6.
+git tag -a v1.4 -m "version 1.4"
+git show v1.4
+
+7.
+git push origin v1.4  >OR< git push origin --follow-tags >OR< git push origin --tag
+
+8.
+git tag
+
+9.
+
+git tag -d v1.4 //locally
+git push origin --delete v1.4 >OR< git push origin :refs/tags/v1.4
+
+
+
+
+
+
+
