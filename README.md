@@ -12,4 +12,4 @@ foobar.pluralize("goose") #returns 'geese'
 foobar.singularize("phenomena") #returns 'phenomenon'
 ```
 
-![image of the terminal](https://github.com/beshoynabeih/ITI-git-Day2/images/1.jpg)
+![image of the terminal](https://github.com/beshoynabeih/ITI-git-Day2/blob/main/images/1.jpg)
